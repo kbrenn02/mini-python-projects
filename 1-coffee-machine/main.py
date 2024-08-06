@@ -93,3 +93,25 @@ while still_ordering:
             resources["water"] -= drink["ingredients"]["water"]
             resources["coffee"] -= drink["ingredients"]["coffee"]
             resources["milk"] -= drink["ingredients"]["milk"]
+        
+        # After the resources are updated in the backend, then we take the payment. Payment in coins. Gather input from customer
+        print("Please insert coins.")
+        # Convert input (which comes as a string) immediately into a string to work with
+        quarters = int(input("How many quarters: "))
+        dimes = int(input("How many dimes: "))
+        nickles = int(input("How many nickles: "))
+        pennies = int(input("How many pennies: "))
+        # Using the process_coins function, get the total for what the customer paid
+        total_paid = process_coins(quarters, dimes, nickles, pennies)
+
+        # Series of moves to take depending on how much the customer paid
+        if total_paid < drink["cost"]:
+            print("Sorry, that's not enough money. Money refunded.")
+        elif total_paid == drink["cost"]:
+            resources["money"] += drink["cost"]
+            print(f"Here is you {order}. Enjoy!")
+        elif total_paid > drink["cost"]:
+            resources["money"] += drink["cost"]
+            refund = round(total_paid - drink["cost"], 2)
+            print(f"Here is ${refund} in change.")
+            print(f"Here is you {order}. Enjoy!")
