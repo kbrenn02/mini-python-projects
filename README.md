@@ -8,3 +8,5 @@ Coffee house order convo run in the terminal. To run the coffee machine, run `py
 
 ### 2. Coffee Machine (classes)
 Coffee house order convo run in the terminal, this time using different classes/files! To run the coffee machine, run `python3 main.py` after navigating into the coffee machine project(2).
+
+### 3. Quiz Game

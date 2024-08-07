@@ -7,6 +7,6 @@ Similar to project 1, make a coffee machine exchange that is run in the terminal
 6. Check if the transaction was successful
 7. Make coffee.
 
-The difference with this coffee machine is that I am moving out of 1 document that contains all the functions and am instead creating classes that are called in a main file.
+The difference with this coffee machine is that I am moving out of one document that contains all the functions and am instead creating classes that are called in a main file.
 
 To run the coffee machine, run `python3 main.py` after navigating into the coffee machine project.
