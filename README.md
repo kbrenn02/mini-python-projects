@@ -12,5 +12,8 @@ Coffee house order convo run in the terminal, this time using different classes/
 ### 3. Quiz Game
 Computer science themed quiz game that's run in the terminal. To start the quiz, run `python3 main.py` after navigating into the quiz game project.
 
-### 4. Turtle library
-Have you ever drawn with a turtle? Nows your chance! To start, run `python3 main.py` after navigating into the turtle project.
+### 4. Turtle library pt.1
+Have you ever drawn with a turtle? Nows your chance! To start, choose which option you want to run by commenting out the unused option, then run `python3 main.py` after navigating into the turtle project.
+
+### 5. Turtle library pt.2
+More drawing, this time with user input. There are two file options to choose from. To start the option of choice, run `python3 [option_file_name].py` after navigating into the drawing turtle project.
