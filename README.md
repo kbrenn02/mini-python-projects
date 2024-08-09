@@ -20,3 +20,9 @@ More drawing, this time with user input. There are two file options to choose fr
 
 ### 6. Pong
 Classic arcade pong game. To start the game, run `python3 main.py` after navigating into the pong project.
+
+### 7. Snake
+Classic arcade snake game. To start the game, run `python3 main.py` after navigating into the snake project.
+
+### 8. Turtle Crossing
+Frog hopper, but make it turtles. So turtle crossing. To start the game, run `python3 main.py` after navigating into the turtle crossing project.
