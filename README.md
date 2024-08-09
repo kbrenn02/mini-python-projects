@@ -17,3 +17,6 @@ Have you ever drawn with a turtle? Nows your chance! To start, choose which opti
 
 ### 5. Turtle library pt.2
 More drawing, this time with user input. There are two file options to choose from. To start the option of choice, run `python3 [option_file_name].py` after navigating into the drawing turtle project.
+
+### 6. Pong
+Classic arcade pong game. To start the game, run `python3 main.py` after navigating into the pong project.
